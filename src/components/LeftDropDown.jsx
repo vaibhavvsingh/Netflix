@@ -12,7 +12,7 @@ function LeftDropDown({ dropdown }) {
   return (
     <div
       className={
-        "absolute flex flex-col gap-2 p-3 w-[200px] transition-all h-[100vh] bg-slate-950 font-semibold text-white z-40 " +
+        "fixed flex flex-col gap-2 p-3 w-[200px] transition-all h-[100vh] bg-slate-950 font-semibold text-white z-40 " +
         (dropdown ? "left-[0px]" : "left-[-200px]")
       }
     >

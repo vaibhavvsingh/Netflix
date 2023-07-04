@@ -11,11 +11,11 @@ function Navbar({ scrollValue }) {
     <>
       <div
         className={
-          "flex text-md px-12 py-2 justify-between items-center z-10 text-white sticky top-0 " +
+          "flex text-md px-4 lg:px-12 py-2 justify-between items-center z-10 text-white sticky top-0 " +
           (scrollValue == 0 ? "nav-gradient" : "nav-gradient2")
         }
       >
-        <div className="flex justify-center items-center gap-8">
+        <div className="flex justify-center items-center gap-3 lg:gap-8">
           <div className="lg:hidden" onClick={() => setDropdown(!dropdown)}>
             <FaBars />
           </div>
