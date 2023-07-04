@@ -21,9 +21,13 @@ svg{
 }
 
 .app-background{
-    background: linear-gradient(180deg, rgba(0,0,0,0) 0, rgba(0,0,0,0) 90vh, rgb(18, 18, 18) 100vh, rgb(18, 18, 18) 100%);
+    background: #000;
 }
-
+@media (min-width:1024px) {
+    .app-background{
+        background: linear-gradient(180deg, rgba(0,0,0,0) 0, rgba(0,0,0,0) 90vh, rgb(18, 18, 18) 100vh, rgb(18, 18, 18) 100%);
+    }
+}
 .login-bg{
     background-image: url('./assets/bg.jpg');
 }
